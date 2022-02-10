@@ -16,9 +16,7 @@ You can drag and drop each animal character into a box to make sounds. Select ba
 
 ## Dev Notes
   
-  1. https://www.javascripttutorial.net/web-apis/javascript-drag-and-drop/
-  2. https://getbutterfly.com/javascript-drag-drop/
-  3. https://www.incredibox.com/
+  https://docs.google.com/document/d/15Pn5wHmHRUQmF5D-rGymCfj8qYAjHV26IYRrZza_O2k/edit?usp=sharing
 
 ## Example
 
