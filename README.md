@@ -1,11 +1,11 @@
 # Animal Band Music Mixer
 
-The focus of this project is to collaboratively research, experiment with and ultimately design and build a multimedia application using design and motion tools as well as HTML, CSS and JavaScript. Your team will implement drag and drop functionality to load audio clips and create a dynamic audio experience, trigger animation, and play a compiled audio track.
+The focus of this project is to collaboratively research, experiment with and ultimately design and build a multimedia application using design and motion tools as well as HTML, CSS and JavaScript. The team will implement drag and drop functionality to load audio clips and create a dynamic audio experience, trigger animation, and play a compiled audio track.
 <hr>
 
 ## Future Development Outcome
 
-You can drag and drop each animal character into a box to make sounds. Select background tracks so that you make the animal band play music together.
+The user can drag and drop each animal character into a box to make sounds. Select background tracks so that you make the animal band play music together.
 
 ## Required Technology
 
@@ -15,7 +15,7 @@ You can drag and drop each animal character into a box to make sounds. Select ba
   4. Graphic UI Design
 
 ## Dev Notes
-  
+
   https://docs.google.com/document/d/15Pn5wHmHRUQmF5D-rGymCfj8qYAjHV26IYRrZza_O2k/edit?usp=sharing
 
 ## Example
