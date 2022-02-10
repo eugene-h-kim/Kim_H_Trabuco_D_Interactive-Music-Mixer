@@ -33,8 +33,8 @@ You can drag and drop each animal character into a box to make sounds. Select ba
 
 ## Credits
 
-Kim, Hyeongtae: eugene-h-kim<br>
-Trabuco, Dianne Karla: diannekarla
+  * Kim, Hyeongtae: eugene-h-kim
+  * Trabuco, Dianne Karla: diannekarla
 
 ## License
 MIT
