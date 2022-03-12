@@ -3,3 +3,157 @@
 .hidden {
   display: none;
 }
+
+html{
+  height: 100%;
+}
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+}
+
+.flex{
+  display: flex;
+}
+
+.column{
+  flex-direction: column;
+}
+
+.containers{
+  display: flex;
+  flex:1;
+  justify-content: space-evenly;
+}
+
+.music-con{
+  align-items: center;
+  height: 100%;
+  min-height: 100%;
+}
+
+.music-pieces-con{
+  width: 100%;
+  background: url('../images/battle-ground-BG.png') no-repeat center center;
+  height: 620px;
+}
+
+.music-pieces{
+  justify-content: flex-start;
+  margin: 15px 115px;
+}
+
+.music-pieces .pieces{
+  border: 3px solid white;
+  min-height: 140px;
+  border-radius: 5px;
+  box-shadow: 0.5px 0px 10px 0.5px white;
+  min-width: 130px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.pieces img{
+  border-radius: 50%;
+  height: fit-content;
+  vertical-align: middle;
+  align-self: center;
+  cursor: pointer;
+}
+
+.pieces img.pink{
+  box-shadow: 0px 0px 10px 3px pink;
+}
+
+.pieces img.blue{
+  box-shadow: 0px 0px 10px 3px blue;
+}
+
+.pieces img.red{
+  box-shadow: 0px 0px 10px 3px red;
+}
+
+.pieces img.green{
+  box-shadow: 0px 0px 10px 3px green;
+}
+
+.pieces img.orange{
+  box-shadow: 0px 0px 10px 3px orange;
+}
+
+.pieces img.sky{
+  box-shadow: 0px 0px 10px 3px skyblue;
+}
+
+.pieces img.purple{
+  box-shadow: 0px 0px 10px 3px purple;
+}
+
+.pieces img.yellow{
+  box-shadow: 0px 0px 10px 3px yellow;
+}
+
+
+.music-pieces-machine{
+  width: 100%;
+  background: url('../images/war-mech.png') no-repeat center top;
+  justify-content: center;
+  background-size: inherit;
+}
+
+.title-con{
+  color:white;
+  text-align: center;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 30px;
+}
+
+.title-con img{
+  margin-bottom: 10px;
+  width: 120px;
+}
+.title-con h1{
+  margin-bottom: 0;
+}
+.title-con h2{
+  margin-top: 0;
+  font-weight: normal;
+}
+
+
+.music-board-con{
+  width: 100%;
+  background: url('../images/steel-plate.png') no-repeat center center;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  height: 100%;
+  background-size: cover;
+}
+
+.music-board-con > div{
+  flex: 1;
+  justify-content: space-evenly;
+}
+
+.reset-con{
+  justify-content: center !important;
+}
+
+.reset-con button{
+  background: rgba(0,0,0,.5);
+  padding: 15px 80px;
+  border-radius: 20px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.music-board .pieces{
+  background: url('../images/icon-hole.png') no-repeat center center;
+  height: 80px;
+  Width: 80px;
+}
