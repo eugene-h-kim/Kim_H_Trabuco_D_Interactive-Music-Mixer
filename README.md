@@ -1,4 +1,4 @@
-# Animal Band Music Mixer
+# Anti-War Drop The Beat Music Mixer
 
 The focus of this project is to collaboratively research, experiment with and ultimately design and build a multimedia application using design and motion tools as well as HTML, CSS and JavaScript. The team will implement drag and drop functionality to load audio clips and create a dynamic audio experience, trigger animation, and play a compiled audio track.
 <hr>
@@ -20,8 +20,7 @@ The user can drag and drop each animal character into a box to make sounds. Sele
 
 ## Example
 
-  1. A Sample image in the assets folder
-  2. Audio Samples in the audio folder
+  1. Sample screen images in the assets folder
 
 ## Contributing
 
