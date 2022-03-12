@@ -5,7 +5,7 @@ The focus of this project is to collaboratively research, experiment with and ul
 
 ## Future Development Outcome
 
-The user can drag and drop each animal character into a box to make sounds. Select background tracks so that you make the animal band play music together.
+The user can drag and drop each music disk icon into a box in the upper side of the screen to make sounds.
 
 ## Required Technology
 
