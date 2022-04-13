@@ -4,91 +4,97 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DROP THE BEAT INSTEAD Music Mixer</title>
+
+  <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/main.css">
+  <title>Anti-War Drop The Beat Music Mixer</title>
 </head>
+
 <body>
-  <div class="flex column music-con">
+
+  <header>
+    <h1 class="hidden">Anti-War Drop The Beat Music Mixer</h1>
+  </header>
+
+  <div class="main_board">
+    <h2 class="hidden">Drag and Drop to play the music</h2>
+
+    <div class="play_board-1">
+      <div class="drag-box"></div>
+      <div class="drag-box"></div>
+      <div class="drag-box"></div>
+    </div>
+
+    <div class="title">
+
+      <div class="ukraine-flag">
+        <img src="images/Ukraine-flag.png" alt="Ukraine flag">
+      </div>
     
-    <div class="flex music-pieces-con">
-      <!-- <img src="images/no-sign.svg" alt="No War"> -->
-      <div class="flex music-pieces-machine">
-        
-        <div class="flex column music-pieces">
-          <div class="pieces">
-            <img src="images/music-disk-pink.svg" alt="" class="pink">
+      <div class="head-slogan">
+        <h1>DROP<br>THE BEAT</h1>
+        <h2>INSTEAD</h2>
+      </div>
+    </div>
+
+    <div class="play_board-2">
+      <div class="drag-box"></div>
+      <div class="drag-box"></div>
+      <div class="drag-box"></div>
+    </div>
+  </div>
+
+  <div class="moving_icons">
+    <div class="icon_holder">
+
+      <div class="icon-set-1">
+        <div class="icon1">
+          <img id="icon_Test1" data-audio="audio/audio_01.wav" src="images/music-disk-blue_01.svg" alt="icon_Test" draggable="true">
           </div>
-          <div class="pieces">
-            <img src="images/music-disk-blue.svg" alt="" class="blue">
+    
+          <div class="icon2">
+            <img id="icon_Test2" data-audio="audio/audio_02.wav" src="images/music-disk-green_02.svg" alt="icon_Test" draggable="true">
           </div>
-          <div class="pieces">  
-            <img src="images/music-disk-red.svg" alt="" class="red">
+    
+          <div class="icon3">
+            <img id="icon_Test3" data-audio="audio/audio_03.wav" src="images/music-disk-orange_03.svg" alt="icon_Test" draggable="true">
           </div>
-        </div>
-        <div class="flex column title-con">
-          <img src="images/Ukraine-flag.png" alt="No War">
-          <div class="flex column">
-            <h1>DROP <br> THE BEAT</h1>
-            <h2>INSTEAD</h2>
+    
+          <div class="icon4">
+            <img id="icon_Test4" data-audio="audio/audio_04.wav" src="images/music-disk-pink_04.svg" alt="icon_Test" draggable="true">
           </div>
-          
-        </div>
-        <div class="flex column music-pieces">
-          <div class="pieces">
-            <img src="images/music-disk-green.svg" alt="" class="green"> 
-          </div>
-          <div class="pieces">
-            <img src="images/music-disk-orange.svg" alt="" class="orange">
-          </div>
-          <div class="pieces">
-            <img src="images/music-disk-sky.svg" alt="" class="sky">
-          </div>
-        </div>
       </div>
       
-    
-    </div>
-
-    <div class="flex music-board-con">
-      <div class="flex music-board">
-        <div class="pieces">
-
+      <div class="icon-set-2">
+        <div class="icon5">
+          <img id="icon_Test5" data-audio="audio/audio_05.wav" src="images/music-disk-purple_05.svg" alt="icon_Test" draggable="true">
         </div>
-        <div class="pieces">
-
+  
+        <div class="icon6">
+          <img id="icon_Test6" data-audio="audio/audio_06.mp3" src="images/music-disk-red_06.svg" alt="icon_Test" draggable="true">
         </div>
-        <div class="pieces">
-          <img src="images/music-disk-yellow.svg" alt="" class="yellow">
+  
+        <div class="icon7">
+          <img id="icon_Test7" data-audio="audio/audio_07.mp3" src="images/music-disk-sky_07.svg" alt="icon_Test" draggable="true">
         </div>
-        <div class="pieces">
-
+  
+        <div class="icon8">
+          <img id="icon_Test8" data-audio="audio/audio_08.mp3" src="images/music-disk-yellow_08.svg" alt="icon_Test" draggable="true">
         </div>
       </div>
-      <div class="flex reset-con">
-        <button>RESET</button>
-      </div>
-      <div class="flex music-board">
-        <div class="pieces">
 
-        </div>
-        <div class="pieces">
-
-        </div>
-        <div class="pieces">
-
-        </div>
-        <div class="pieces">
-          <img src="images/music-disk-purple.svg" alt="" class="purple">
-        </div>
+      <div class="reset_Button">
+        <button id="refresh" onclick=location=URL>RESET</button>
       </div>
 
     </div>
 
+    <div class="bottom-metal">
+      <img src="images/steel-plate_2.png" alt="bottom-bar">
+    </div>
 
   </div>
 
-
-
-
+  <script src="js/main.js"></script>
 </body>
 </html>
