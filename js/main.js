@@ -68,15 +68,15 @@
    
    //debugger;
    
-   myAudio = document.createElement('audio');
-   myAudio.src = targetAudio;
+   playAudio = document.createElement('audio');
+   playAudio.src = targetAudio;
    
-   myAudio.loop = "true";
+   playAudio.loop = "true";
    
-   document.body.appendChild(myAudio);
+   document.body.appendChild(playAudio);
    
-   myAudio.loop = "true"; document.body.appendChild(myAudio);
-   myAudio.play();
+   playAudio.loop = "true"; document.body.appendChild(playAudio);
+   playAudio.play();
    let data = ev.dataTransfer.getData("img");
    
    ev.target.appendChild(document.querySelector(`#${data}`));
