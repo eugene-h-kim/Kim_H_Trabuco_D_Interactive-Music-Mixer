@@ -1,16 +1,16 @@
 (() =>{
 
-   console.log('fired!');
+   console.log();
    
-   icon_holder = document.querySelectorAll('.icon_holder'),
-   draggablePieces = document.querySelectorAll('.icon_holder img'),
+   discSet = document.querySelectorAll('.disc-set'),
+   dragDiscs = document.querySelectorAll('.disc-set img'),
    dropZones = document.querySelectorAll('.drag-box');
    
-   function allowDrop(ev){
+   function startDrop(ev){
       ev.preventDefault();
    }
    
-   function drag(ev){
+   function startDrag(ev){
       ev.dataTransfer.setData("img",ev.target.id);
    }
    
@@ -19,15 +19,15 @@
    ev.preventDefault();
    });
    
-   function drop(ev){
+   function startDrop(ev){
       ev.preventDefault();
       ev.target.appendChild(document.getElementById(data));
    }
    
    
-   draggablePieces.forEach(piece => {
+   dragDiscs.forEach(piece => {
    piece.addEventListener("dragstart", function(ev) {
-      console.log('draggin...');
+      console.log();
    
       ev.dataTransfer.setData("img", this.id);
    })
@@ -51,10 +51,10 @@
    
    
    ev.preventDefault();
-   console.log('you dropped a track on me');
+   console.log();
    
    if (this.childElementCount > 0) {
-      console.log('one track only please!');
+      console.log();
       return;
    }
    
@@ -79,20 +79,11 @@
    myAudio.play();
    let data = ev.dataTransfer.getData("img");
    
-   
-   
    ev.target.appendChild(document.querySelector(`#${data}`));
-   
    
    })
    
    });
-   
-   
    })();
    
-   
-   
-   
    //debugger
-   
